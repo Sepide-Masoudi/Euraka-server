@@ -1,0 +1,15 @@
+
+server:
+  port: 8761
+eureka:
+#  server:
+#    enableSelfPreservation: false
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  renewalPercentThreshold: 0.85
+
+
+spring:
+  application:
+    name: Eureka-server
